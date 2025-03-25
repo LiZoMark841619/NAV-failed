@@ -3,7 +3,7 @@ from menu import Menu
 from valids import Valids
 from calculator import Calculator
 from equation import GameEquation
-from chickerabbit import ChickenRabbit
+from chickenrabbit import ChickenRabbit
 from guesses import Guesses
 from lotto import Lotto
 from rock import Rock
