@@ -11,12 +11,10 @@ class Calculator(Menu):
         options = "Choose the operation (add/subtract/multiply/divide): "
         self.valid.set_valid_string(options, "add", "subtract", "multiply", "divide")
         option = self.valid.get_valid_string()
-        self.valid.set_valid_values('Enter the max number of values you want to calculate (1-10): ', 1, lambda x: x[0] in range(1, 11))
-        length = self.valid.get_valid_values()[0]
         min_value, max_value = 1, 1000
         prompt = f"Enter the values separated by space! Only positive number is allowed from {min_value} to {max_value}: "
         conditions = lambda x: all(i in range(1, 1001) for i in x)
-        self.valid.set_valid_values(prompt, length, conditions)
+        self.valid.set_valid_values(prompt, conditions)
         numbers = self.valid.get_valid_values()
         result = self.process.get_actions()[option](*numbers)
         sign = '+' if option == 'add' else '-' if option == 'subtract' else '*' if option == 'multiply' else '/'

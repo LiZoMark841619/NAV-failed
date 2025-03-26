@@ -16,8 +16,8 @@ class Rock(Menu):
             user = self.valid.get_valid_string()
             result = computer, user
             logger.info(f'You won, Computer chose {computer}! '
-            if (result[0] == 'rock' and result[1] not in ['rock', 'paper'])
-            or (result[0] == 'paper' and result[1] not in ['paper', 'scissors'])
-            or result[0] == 'scissors' and result[1] not in ['scissors', 'rock']
+            if (result[1] == 'rock' and result[0] == 'scissors')
+            or (result[1] == 'paper' and result[0] == 'rock')
+            or (result[1] == 'scissors' and result[0] == 'paper')
             else f'Even! Computer chose {computer}. ' if result[0] == result[1]
             else f'You lost, Computer chose {computer}.')

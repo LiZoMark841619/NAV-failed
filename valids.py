@@ -2,13 +2,11 @@ from typing import Callable
 from logsettings import logger
 
 class Valids:
-    def set_valid_values(self, prompt: str, max_length: int, condition: Callable) -> None:
+    def set_valid_values(self, prompt: str, condition: Callable) -> None:
         while True:
             try:
                 values = list(map(int, input(prompt).split()))
-                if len(values) not in range(1, max_length + 1):
-                    logger.error(f"At least one and at most {max_length} values are allowed! Try again!")
-                elif condition(values):
+                if condition(values):
                     self.values = values
                     return
                 else:
