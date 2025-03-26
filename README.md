@@ -1,3 +1,5 @@
+# A main.py file lefuttatásával indul a játék!
+
 ## Feladat
 Oldjunk meg egy klasszikus kínai feladványt Python segítségével!
 A fejtörő a következő: „Egy udvaron nyulak és csirkék sütkéreznek a napon. Összesen 35 fejet és 94 lábat tudtam megszámolni.
