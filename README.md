@@ -1,38 +1,30 @@
-# A main.py file lefuttatásával indul a játék!
+# Start the game after cloning the repo with the py main.py command run
 
-## Feladat
-Oldjunk meg egy klasszikus kínai feladványt Python segítségével!
-A fejtörő a következő: „Egy udvaron nyulak és csirkék sütkéreznek a napon. Összesen 35 fejet és 94 lábat tudtam megszámolni.
-Hány csirke és hány nyúl volt az udvarban?”
-Tipp: használjunk for ciklust az összes lehetséges megoldás végig számolására!
-A tökéletes megoldás egy olyan függvény(ek), amely:
-általánosan tetszőleges számú fejre és lábra megkeresi a megoldást (ha létezik)
-ehhez bekéri az adatokat,
-ellenőrzi a bemenő adatokat (pl. szöveg, float, negatív egész szám),
-ellenőrzi, hogy az adatok alapján a feladatnak van vagy lehetséges-e egyáltalán megoldása (pl. páratlan láb).
-kiírja a lehetséges megoldást, megoldásokat
-Ebben az esetben a fejek és lábak száma a bemenő paraméter, és a nyulak/csirkék száma a függvény kimenete.
+## Task
+Let's solve a classic Chinese puzzle using Python! The puzzle is as follows: "In a yard, rabbits and chickens are basking in the sun. I was able to count a total of 35 heads and 94 legs. How many chickens and rabbits were there in the yard?" Hint: use a for loop to count all possible solutions! The perfect solution is a function(s) that: generally finds a solution for any number of heads and legs (if it exists) asks for the data to do so, checks the input data (e.g. text, float, negative integer), checks whether the problem has or is even possible to solve based on the data (e.g. odd legs). prints out the possible solution, solutions In this case, the number of heads and legs is the input parameter, and the number of rabbits/chickens is the output of the function.
 
-## Feladat
-Egy 4 műveletes számológép készítése Python segítségével.
-Műveletek:
-összeadás
-kivonás
-szorzás
-osztás
-Az ideális megoldás:
-felkínál egy menüt, amiből ki lehet választani milyen műveletet szeretnénk végezni (1-4 kiválasztása a 4 alapművelet, minden másra kilép),
-ehhez bekéri az adatokat (a műveletnek megfelelően hivatkozva rá),
-ellenőrzi az adatokat,
-elvégzi a műveletet és kiírja az eredményt formázással, hogy szerepeljenek benne a bejövő adatok és az eredmény is,
-újra felkínálja a menüt
 
-## Feladat
-Másodfokú egyenlet megoldó Python segítségével.
-Az ideális megoldás:
-leírja mit csinál,
-felkínálja, hogy akarunk-e számolni (I-igen, minden más nem)
-az adatokat a másodfokú egyenlet kaninikus alakjának megfelelően kéri be (a, b, c-t), lásd erre vonatkozóan: https://hu.wikipedia.org/wiki/M%C3%A1sodfok%C3%BA_egyenlet
-az adatokat ellenőrzi,
-a Diszkrimináns alapján ki írja, hogy hány megoldása van az egyenletnek és kiszámolja azokat.
-A valós számok halmazán a négyzetgyök számításhoz a Python math modulját javasolt használni (import math as math), míg a komplex számokhoz a cmath modult (import cmath as cmath), de ezt végső soron ki lehet váltani a megoldó képlet megfelelő átalakításával és a real, illetve az imaginárius rész külön-külön kiszámolásával és complex számmá alakításával a math modul alkalmazása melett). (Bármelyik megoldás jó ebből a szempontból)
+## Task
+Creating a 4-operation calculator using Python.
+Operations:
+addition
+subtraction
+multiplication
+division
+The ideal solution offers a menu from which you can select what operation you want to perform (selecting 1-4 is the 4 basic operations, everything else will exit),
+to do this, it requests the data (referring to it according to the operation), checks the data, performs the operation, and prints the result with formatting to include both the incoming data and the result, offers the menu again.
+
+
+## Task
+Quadratic equation solver using Python.
+The ideal solution describes what it does, offers whether we want to calculate (Yes, everything else is not)
+requests the data according to the canonical form of the quadratic equation (a, b, c), see for this: https://hu.wikipedia.org/wiki/M%C3%A1sodfok%C3%BA_egyánlet
+checks the data, based on the Discriminant, writes out how many solutions the equation has and calculates them.
+For the set of real numbers, it is recommended to use the Python math module for square root calculation (import math as math), while for complex numbers, the cmath module (import cmath as cmath), but this can ultimately be replaced by appropriately transforming the solving formula and calculating the real and imaginary parts separately and converting them into complex numbers using the math module). (Any solution is good from this point of view)
+
+
+## Task
+Lotto game.
+
+## Task
+Rock, scissors, paper game.
