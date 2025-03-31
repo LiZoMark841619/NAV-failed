@@ -10,24 +10,18 @@ Let's solve a classic Chinese puzzle using Python! The puzzle is as follows: "In
 ### Task
 Creating a 4-operation calculator using Python.
 Operations:
-addition
-subtraction
-multiplication
-division
-The ideal solution offers a menu from which you can select what operation you want to perform (selecting 1-4 is the 4 basic operations, everything else will exit),
-to do this, it requests the data (referring to it according to the operation), checks the data, performs the operation, and prints the result with formatting to include both the incoming data and the result, offers the menu again.
-
+- addition
+- subtraction
+- multiplication
+- division
+The ideal solution offers a menu from which you can select what operation you want to perform (selecting 1-4 is the 4 basic operations, to do this, it requests the data (referring to it according to the operation), checks the data, performs the operation, and prints the result with formatting to include both the incoming data and the result, offers the menu again.
 
 ### Task
 Quadratic equation solver using Python.
-The ideal solution describes what it does, offers whether we want to calculate (Yes, everything else is not)
-requests the data according to the canonical form of the quadratic equation (a, b, c), see for this: https://hu.wikipedia.org/wiki/M%C3%A1sodfok%C3%BA_egyánlet
-checks the data, based on the Discriminant, writes out how many solutions the equation has and calculates them.
-For the set of real numbers, it is recommended to use the Python math module for square root calculation (import math as math), while for complex numbers, the cmath module (import cmath as cmath), but this can ultimately be replaced by appropriately transforming the solving formula and calculating the real and imaginary parts separately and converting them into complex numbers using the math module). (Any solution is good from this point of view)
+The ideal solution checks the data, based on the Discriminant, writes out how many solutions the equation has, and calculates them. It uses regex when the user enters the equation during the process to decide whether it is valid or not. 
 
-
-## Task
+### Task
 Lotto game.
 
-## Task
+### Task
 Rock, scissors, paper game.
