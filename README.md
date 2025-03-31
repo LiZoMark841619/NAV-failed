@@ -9,15 +9,18 @@ Let's solve a classic Chinese puzzle using Python! The puzzle is as follows: "In
 
 ### Task
 Creating a 4-operation calculator using Python.
+
 Operations:
 - addition
 - subtraction
 - multiplication
 - division
+
 The ideal solution offers a menu from which you can select what operation you want to perform (selecting 1-4 is the 4 basic operations, to do this, it requests the data (referring to it according to the operation), checks the data, performs the operation, and prints the result with formatting to include both the incoming data and the result, offers the menu again.
 
 ### Task
 Quadratic equation solver using Python.
+
 The ideal solution checks the data, based on the Discriminant, writes out how many solutions the equation has, and calculates them. It uses regex when the user enters the equation during the process to decide whether it is valid or not. 
 
 ### Task
